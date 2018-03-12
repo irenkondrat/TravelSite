@@ -1,0 +1,114 @@
+D:\TravelWebAPI\TravelWebAPI\bin\TravelWebAPI.dll.config
+D:\TravelWebAPI\TravelWebAPI\bin\TravelWebAPI.dll
+D:\TravelWebAPI\TravelWebAPI\bin\TravelWebAPI.pdb
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Newtonsoft.Json.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Owin.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Net.Http.Formatting.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Helpers.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.Owin.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.WebHost.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Mvc.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Razor.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Deployment.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Razor.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.xml
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Net.Http.Formatting.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.Owin.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Razor.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Deployment.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Razor.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Helpers.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Mvc.xml
+D:\TravelWebAPI\TravelWebAPI\bin\Newtonsoft.Json.xml
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.WebHost.xml
+D:\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.csprojResolveAssemblyReference.cache
+D:\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.csproj.CoreCompileInputs.cache
+D:\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.dll
+D:\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.pdb
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Cors.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TravelWebAPI\TravelWebAPI\bin\System.Web.Cors.dll
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Cors.xml
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.xml
+D:\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\TravelWebAPI.dll.config
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\TravelWebAPI.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\TravelWebAPI.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Cors.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Newtonsoft.Json.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Owin.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Net.Http.Formatting.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Cors.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Helpers.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.Owin.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.WebHost.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Mvc.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Razor.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Deployment.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Razor.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Cors.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Newtonsoft.Json.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Net.Http.Formatting.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.Owin.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Razor.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Deployment.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Webpages.Razor.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Helpers.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Mvc.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\System.Web.Http.WebHost.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.csprojResolveAssemblyReference.cache
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.csproj.CoreCompileInputs.cache
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\obj\Debug\TravelWebAPI.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\CommonServiceLocator.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Travel.BL.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Travel.Data.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Abstractions.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Configuration.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Container.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Interception.Configuration.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Interception.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.RegistrationByConvention.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.ServiceLocation.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\EntityFramework.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Travel.BL.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Travel.Data.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Travel.Data.dll.config
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\CommonServiceLocator.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Abstractions.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Configuration.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Container.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Interception.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.Interception.Configuration.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.RegistrationByConvention.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Unity.ServiceLocation.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\EntityFramework.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\EntityFramework.SqlServer.dll
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\EntityFramework.SqlServer.xml
+D:\EPAM Labs\Travel\TravelWebAPI\TravelWebAPI\bin\Travel.BL.dll.config

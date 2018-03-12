@@ -1,0 +1,14 @@
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\Travel.BL.dll
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\Travel.BL.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\Travel.Data.dll
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\EntityFramework.dll
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\Travel.Data.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\Travel.Data.dll.config
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\EntityFramework.xml
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\obj\Debug\Travel.BL.csprojResolveAssemblyReference.cache
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\obj\Debug\Travel.BL.csproj.CoreCompileInputs.cache
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\obj\Debug\Travel.BL.dll
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\obj\Debug\Travel.BL.pdb
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\Travel.BL.dll.config
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\EPAM Labs\Travel\TravelWebAPI\Travel.BL\bin\Debug\EntityFramework.SqlServer.xml
