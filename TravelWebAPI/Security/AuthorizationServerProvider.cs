@@ -1,38 +1,39 @@
-﻿using System.Security.Claims;
+﻿using System;
+using System.Runtime.CompilerServices;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Kondrat.PracticeTask.Travel.BL.Interface;
 using Microsoft.Owin.Security.OAuth;
 
-namespace TravelWebAPI.Security
+namespace Kondrat.PracticeTask.TravelWebAPI.Security
 {
     public class AuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
-//This method is used to validate clients in the application
+        private readonly IUserCredentialsServise _servise;
+
+        public AuthorizationServerProvider(IUserCredentialsServise servise)
+        {
+            _servise = servise;
+        }
+        //This method is used to validate clients in the application
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
         {
             context.Validated(); //client has been validated
         }
 
-//In this method we will validate the credentials of the user. If credentials are valid we create the signed token
+        //In this method we will validate the credentials of the user. If credentials are valid we create the signed token
         public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
         {
-            var identity = new ClaimsIdentity(context.Options.AuthenticationType);
-
-            if (context.UserName == "admin" && context.Password == "admin"
-            ) //static validation of credentials (should use database)
+            try
             {
-                identity.AddClaim(new Claim(ClaimTypes.Role, "admin"));
-                identity.AddClaim(new Claim("username", "admin"));
-                identity.AddClaim(new Claim(ClaimTypes.Name, "Gabriel"));
-                context.Validated(identity);
-            }
-            else if (context.UserName == "user" && context.Password == "user")
-            {
-                identity.AddClaim(new Claim(ClaimTypes.Role, "user"));
-                identity.AddClaim(new Claim("username", "user"));
-                identity.AddClaim(new Claim(ClaimTypes.Name, "Peter"));
-                context.Validated(identity);
-            }
-            else
+                var user = _servise.GetByEmailAndPassword(context.UserName, context.Password);
+                if(user==null)
+                    throw new Exception();             
+                var identity = new ClaimsIdentity(context.Options.AuthenticationType);
+                    identity.AddClaim(new Claim(ClaimTypes.Role, user.Role));
+                    identity.AddClaim(new Claim(ClaimTypes.Name, user.Id.ToString()));
+                    context.Validated(identity);
+            }catch(Exception)
             {
                 context.SetError("Invalid Grant", "Provided username and password incorrect");
             }

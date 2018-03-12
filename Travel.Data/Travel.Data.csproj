@@ -47,21 +47,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteEF\CityRepositoty.cs" />
-    <Compile Include="ConcreteEF\PhotoRepositoty.cs" />
+    <Compile Include="ConcreteEF\CityRepository.cs" />
+    <Compile Include="ConcreteEF\PhotoRepository.cs" />
     <Compile Include="ConcreteEF\TravelContext.cs" />
-    <Compile Include="ConcreteEF\UserCredentialsRepositoty.cs" />
-    <Compile Include="ConcreteEF\UserRepositoty.cs" />
+    <Compile Include="ConcreteEF\UserCredentialsRepository.cs" />
+    <Compile Include="ConcreteEF\UserRepository.cs" />
+    <Compile Include="ConcreteEF\VisitingRepository.cs" />
     <Compile Include="Entities\City.cs" />
     <Compile Include="Entities\Comment.cs" />
     <Compile Include="Entities\Photo.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\UserCredentials.cs" />
     <Compile Include="Entities\Visiting.cs" />
-    <Compile Include="Interface\ICityRepositoty.cs" />
-    <Compile Include="Interface\IPhotoRepositoty.cs" />
-    <Compile Include="Interface\IUserCredentialsRepositoty.cs" />
-    <Compile Include="Interface\IUserRepositoty.cs" />
+    <Compile Include="ConcreteEF\CommentRepository.cs" />
+    <Compile Include="Interface\ICityRepository.cs" />
+    <Compile Include="Interface\ICommentRepository.cs" />
+    <Compile Include="Interface\IPhotoRepository.cs" />
+    <Compile Include="Interface\IUserCredentialsRepository.cs" />
+    <Compile Include="Interface\IUserRepository.cs" />
+    <Compile Include="Interface\IVisitingRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

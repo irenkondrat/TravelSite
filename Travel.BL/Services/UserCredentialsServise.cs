@@ -1,26 +1,26 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity.Validation;
-using Travel.BL.Exceptions;
-using Travel.BL.Interface;
-using Travel.BL.Security;
-using Travel.Data.Entities;
-using Travel.Data.Interface;
+using Kondrat.PracticeTask.Travel.BL.Exceptions;
+using Kondrat.PracticeTask.Travel.BL.Interface;
+using Kondrat.PracticeTask.Travel.BL.Security;
+using Kondrat.PracticeTask.Travel.Data.Entities;
+using Kondrat.PracticeTask.Travel.Data.Interface;
 
-namespace Travel.BL.Services
+namespace Kondrat.PracticeTask.Travel.BL.Services
 {
     public class UserCredentialsServise : IUserCredentialsServise
     {
-        private readonly IUserCredentialsRepositoty _userCredentialsRepository;
+        private readonly IUserCredentialsRepository _userCredentialsRepository;
 
-        public UserCredentialsServise(IUserCredentialsRepositoty userCredentialsRepository)
+        public UserCredentialsServise(IUserCredentialsRepository userCredentialsRepository)
         {
             _userCredentialsRepository = userCredentialsRepository;
         }
 
-        public string GetRole(string email, string password)
+        public UserCredentials GetByEmailAndPassword(string email, string password)
         {
             string hashPassword = SaltedHashGenerator.GenerateHash(password, email);
-            return _userCredentialsRepository.GetRole(email, hashPassword);
+            return _userCredentialsRepository.GetByEmailAndPassword(email, hashPassword);
         }
 
         public IEnumerable<UserCredentials> GetAll()

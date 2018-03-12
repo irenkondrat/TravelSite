@@ -50,11 +50,13 @@
   <ItemGroup>
     <Compile Include="Exceptions\DbEntityValidationExceptioErrorMessages.cs" />
     <Compile Include="Exceptions\IncorrectData.cs" />
+    <Compile Include="Interface\ICommentServise.cs" />
     <Compile Include="Interface\IPhotoServise.cs" />
     <Compile Include="Interface\IUserCredentialsServise.cs" />
     <Compile Include="Interface\IUserServise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\SaltedHashGenerator.cs" />
+    <Compile Include="Services\CommentServise.cs" />
     <Compile Include="Services\PhotoServise.cs" />
     <Compile Include="Services\UserCredentialsServise.cs" />
     <Compile Include="Services\UserServise.cs" />

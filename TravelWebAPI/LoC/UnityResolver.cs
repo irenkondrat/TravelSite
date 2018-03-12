@@ -4,7 +4,7 @@ using System.Web.Http.Dependencies;
 using Unity;
 using Unity.Exceptions;
 
-namespace TravelWebAPI.LoC
+namespace Kondrat.PracticeTask.TravelWebAPI.LoC
 {
     public class UnityResolver : IDependencyResolver
     {

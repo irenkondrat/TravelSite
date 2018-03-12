@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Web.Http;
-using Travel.BL.Exceptions;
-using Travel.BL.Interface;
+using Kondrat.PracticeTask.Travel.BL.Exceptions;
+using Kondrat.PracticeTask.Travel.BL.Interface;
 
 
-namespace TravelWebAPI.Controllers
+namespace Kondrat.PracticeTask.TravelWebAPI.Controllers
 {
     public class UserCredentialsController : ApiController
     {

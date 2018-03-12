@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Travel.Data.Entities
+namespace Kondrat.PracticeTask.Travel.Data.Entities
 {
     public class User
     {

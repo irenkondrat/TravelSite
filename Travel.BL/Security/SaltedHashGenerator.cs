@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace Travel.BL.Security
+namespace Kondrat.PracticeTask.Travel.BL.Security
 {
     static class SaltedHashGenerator
     {

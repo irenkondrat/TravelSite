@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Travel.Data.Entities
+namespace Kondrat.PracticeTask.Travel.Data.Entities
 {
     public class Visiting
     {

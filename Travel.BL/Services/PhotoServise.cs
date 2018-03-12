@@ -1,20 +1,20 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity.Validation;
-using Travel.BL.Exceptions;
-using Travel.BL.Interface;
-using Travel.Data.Entities;
-using Travel.Data.Interface;
+using Kondrat.PracticeTask.Travel.BL.Exceptions;
+using Kondrat.PracticeTask.Travel.BL.Interface;
+using Kondrat.PracticeTask.Travel.Data.Entities;
+using Kondrat.PracticeTask.Travel.Data.Interface;
 
-namespace Travel.BL.Services
+namespace Kondrat.PracticeTask.Travel.BL.Services
 {
    public class PhotoServise : IPhotoServise
     {
-         private readonly IPhotoRepositoty _photoRepository;
+         private readonly IPhotoRepository _photoRepository;
 
         private readonly string _file;
 
 
-        public PhotoServise(IPhotoRepositoty userCredentialsRepository)
+        public PhotoServise(IPhotoRepository userCredentialsRepository)
         {
             _photoRepository = userCredentialsRepository;
             _file = "~/Images/";

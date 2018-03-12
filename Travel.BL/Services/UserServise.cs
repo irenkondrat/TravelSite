@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity.Validation;
-using Travel.BL.Exceptions;
-using Travel.BL.Interface;
-using Travel.Data.Entities;
-using Travel.Data.Interface;
+using Kondrat.PracticeTask.Travel.BL.Exceptions;
+using Kondrat.PracticeTask.Travel.BL.Interface;
+using Kondrat.PracticeTask.Travel.BL.Security;
+using Kondrat.PracticeTask.Travel.Data.Entities;
+using Kondrat.PracticeTask.Travel.Data.Interface;
 
-namespace Travel.BL.Services
+namespace Kondrat.PracticeTask.Travel.BL.Services
 {
     public class UserServise:IUserServise
     {
-        private readonly IUserRepositoty _userRepository;
-        private readonly IUserCredentialsRepositoty _userCredentialsRepository;
+        private readonly IUserRepository _userRepository;
+        private readonly IUserCredentialsRepository _userCredentialsRepository;
 
 
-        public UserServise(IUserRepositoty userRepository, IUserCredentialsRepositoty userCredentialsRepository)
+        public UserServise(IUserRepository userRepository, IUserCredentialsRepository userCredentialsRepository)
         {
             _userRepository = userRepository;
             _userCredentialsRepository = userCredentialsRepository;
@@ -41,6 +42,7 @@ namespace Travel.BL.Services
             if (userCredentials.Role == null)
                 userCredentials.Role = "User";
             userCredentials.RegistrationDate = DateTime.Now;
+            userCredentials.Password = SaltedHashGenerator.GenerateHash(userCredentials.Password, userCredentials.Email);
             try
             {
                 _userRepository.Add(user,userCredentials);

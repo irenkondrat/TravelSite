@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using Travel.Data.Entities;
+using Kondrat.PracticeTask.Travel.Data.Entities;
 
-namespace Travel.BL.Interface
+namespace Kondrat.PracticeTask.Travel.BL.Interface
 {
     public interface IUserCredentialsServise
     {
-        string GetRole(string email, string password);
+        UserCredentials GetByEmailAndPassword(string email, string password);
         IEnumerable<UserCredentials> GetAll();
         UserCredentials GetById(int id);
         bool Delete(int id);

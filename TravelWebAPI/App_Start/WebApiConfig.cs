@@ -1,13 +1,13 @@
 ﻿using System.Web.Http;
-using Travel.BL.Interface;
-using Travel.BL.Services;
-using Travel.Data.ConcreteEF;
-using Travel.Data.Interface;
-using TravelWebAPI.LoC;
+using Kondrat.PracticeTask.Travel.BL.Interface;
+using Kondrat.PracticeTask.Travel.BL.Services;
+using Kondrat.PracticeTask.Travel.Data.ConcreteEF;
+using Kondrat.PracticeTask.Travel.Data.Interface;
+using Kondrat.PracticeTask.TravelWebAPI.LoC;
 using Unity;
 using Unity.Lifetime;
 
-namespace TravelWebAPI
+namespace Kondrat.PracticeTask.TravelWebAPI
 {
     public static class WebApiConfig
     {
@@ -15,11 +15,15 @@ namespace TravelWebAPI
         {
             var container = new UnityContainer();
             container.RegisterType<IUserServise, UserServise>(new HierarchicalLifetimeManager());
-            container.RegisterType<IUserRepositoty, UserRepositoty>(new HierarchicalLifetimeManager());
-            container.RegisterType<IUserCredentialsRepositoty, UserCredentialsRepositoty>(new HierarchicalLifetimeManager());
+            container.RegisterType<IUserRepository, UserRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IUserCredentialsRepository, UserCredentialsRepository>(new HierarchicalLifetimeManager());
             container.RegisterType<IUserCredentialsServise, UserCredentialsServise>(new HierarchicalLifetimeManager());
-            container.RegisterType<IPhotoRepositoty, IPhotoRepositoty>(new HierarchicalLifetimeManager());
+            container.RegisterType<IPhotoRepository,PhotoRepository>(new HierarchicalLifetimeManager());
             container.RegisterType<IPhotoServise, PhotoServise>(new HierarchicalLifetimeManager());
+            container.RegisterType<ICityRepository, CityRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<ICommentRepository, CommentRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<ICommentServise, CommentServise>(new HierarchicalLifetimeManager());
+            container.RegisterType<IVisitingRepository, VisitingRepository>(new HierarchicalLifetimeManager());
 
             config.DependencyResolver = new UnityResolver(container);
 

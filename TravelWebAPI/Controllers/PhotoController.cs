@@ -6,10 +6,10 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Http;
-using Travel.BL.Exceptions;
-using Travel.BL.Interface;
+using Kondrat.PracticeTask.Travel.BL.Exceptions;
+using Kondrat.PracticeTask.Travel.BL.Interface;
 
-namespace TravelWebAPI.Controllers
+namespace Kondrat.PracticeTask.TravelWebAPI.Controllers
 {
     public class PhotoController : ApiController
     {
@@ -32,7 +32,7 @@ namespace TravelWebAPI.Controllers
                 {
                     HttpResponseMessage response = new HttpResponseMessage();
                     response.Content = new StreamContent(new FileStream(
-                     System.Web.Hosting.HostingEnvironment.MapPath(@p.Address) ?? throw new InvalidOperationException(),FileMode.Open));
+                     System.Web.Hosting.HostingEnvironment.MapPath(@p.Address) ,FileMode.Open));
                     response.Content.Headers.ContentType = new MediaTypeHeaderValue("image/png");
                     responses.Add(response);
                 }
@@ -78,8 +78,6 @@ namespace TravelWebAPI.Controllers
         {
             try
             {
-                int userId = Int32.Parse(RequestContext.Principal.Identity.Name);
-
                 if (file != null && file.ContentLength > 0)
                 {
                     var fileName = Path.GetFileName(file.FileName);
