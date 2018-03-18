@@ -16,11 +16,7 @@ namespace Kondrat.PracticeTask.TravelWebAPI
 {
     public class Startup
     {
-        private readonly IUserCredentialsServise _servise;
-        public Startup(IUserCredentialsServise servise)
-        {
-            _servise = servise;
-        }
+       
         public void Configuration(IAppBuilder app)
         {
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll); //enable cors origin request
