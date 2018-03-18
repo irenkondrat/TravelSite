@@ -1,8 +1,9 @@
-﻿using System;
-using System.Runtime.CompilerServices;
+using System;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Kondrat.PracticeTask.Travel.BL.Interface;
+using Kondrat.PracticeTask.Travel.BL.Services;
+using Kondrat.PracticeTask.Travel.Data.ConcreteEF;
 using Microsoft.Owin.Security.OAuth;
 
 namespace Kondrat.PracticeTask.TravelWebAPI.Security
@@ -11,11 +12,11 @@ namespace Kondrat.PracticeTask.TravelWebAPI.Security
     {
         private readonly IUserCredentialsServise _servise;
 
-        public AuthorizationServerProvider(IUserCredentialsServise servise)
+        public AuthorizationServerProvider()
         {
-            _servise = servise;
+            _servise = new UserCredentialsServise(new UserCredentialsRepository());
         }
-        //This method is used to validate clients in the application
+        
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
         {
             context.Validated(); //client has been validated
