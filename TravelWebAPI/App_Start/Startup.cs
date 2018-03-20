@@ -22,7 +22,7 @@ namespace Kondrat.PracticeTask.TravelWebAPI
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll); //enable cors origin request
 
 
-            var myProvider = new AuthorizationServerProvider(_servise);
+            var myProvider = new AuthorizationServerProvider();
             OAuthAuthorizationServerOptions options = new OAuthAuthorizationServerOptions()
             {
                 AllowInsecureHttp = true,
